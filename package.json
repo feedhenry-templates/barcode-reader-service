@@ -31,7 +31,8 @@
   "main": "application.js",
   "scripts": {
     "test": "grunt test",
-    "debug": "grunt serve"
+    "debug": "grunt serve",
+    "start": "node application.js"
   },
   "license": "mit"
 }
