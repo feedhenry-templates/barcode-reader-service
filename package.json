@@ -6,7 +6,7 @@
     "cors": "~2.2.0",
     "csv": "^0.4.2",
     "express": "~4.0.0",
-    "fh-mbaas-api": "5.9.0",
+    "fh-mbaas-api": "5.9.1",
     "jsdom": "~3.*",
     "request": "^2.40.0",
     "soap": "^0.8.0"
