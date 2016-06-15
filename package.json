@@ -1,13 +1,12 @@
 {
   "name": "barcode-reader-service",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "dependencies": {
     "body-parser": "~1.0.2",
     "cors": "~2.2.0",
     "csv": "^0.4.2",
     "express": "~4.0.0",
-    "fh-mbaas-api": "5.11.2",
-    "jsdom": "~3.*",
+    "fh-mbaas-api": "5.12.0",
     "request": "^2.40.0",
     "soap": "^0.8.0"
   },
@@ -34,7 +33,8 @@
   "scripts": {
     "test": "grunt unit",
     "debug": "grunt serve",
-    "start": "node application.js"
+    "start": "node application.js",
+    "postinstall": "scripts/postinstall.sh"
   },
   "license": "mit"
 }
