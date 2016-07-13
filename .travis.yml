@@ -10,4 +10,6 @@ node_js:
 before_install:
   - npm install fh-build -g
   - fh-build template
+  - python --version
+  - gcc --version
 install: npm install
