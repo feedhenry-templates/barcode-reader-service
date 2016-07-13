@@ -34,6 +34,7 @@
     "test": "grunt unit",
     "debug": "grunt serve",
     "start": "node application.js",
+    "preinstall": "scripts/preinstall.sh",
     "postinstall": "scripts/postinstall.sh"
   },
   "license": "mit"
