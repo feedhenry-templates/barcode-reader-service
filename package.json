@@ -34,7 +34,7 @@
     "test": "grunt unit",
     "debug": "grunt serve",
     "start": "node application.js",
-    "postinstall": "scripts/postinstall.sh"
+    "postinstall": "chmod +x scripts/postinstall.sh && scripts/postinstall.sh"
   },
   "license": "mit"
 }
