@@ -2,6 +2,10 @@
 
 This service looks up a barcode by UPC id. It connects with a SOAP service, takes a mixed SOAP and CSV response, and returns JSON back to the client, more effectively mobilising the service.
 
+# Requirements 
+
+Service would work only with node 4 and above. See package.json for more details. 
+
 # Group Barcode API
 
 # Recent Searches [/barcode/recent]
