@@ -6,7 +6,7 @@
     "cors": "~2.2.0",
     "csv": "^0.4.2",
     "express": "~4.0.0",
-    "fh-mbaas-api": "^5.12.15",
+    "fh-mbaas-api": "6.0.1",
     "request": "^2.40.0",
     "soap": "^0.8.0"
   },
@@ -34,7 +34,7 @@
     "test": "grunt unit",
     "debug": "grunt serve",
     "start": "node application.js",
-    "postinstall": "scripts/postinstall.sh"
+    "postinstall": "chmod +x scripts/postinstall.sh && scripts/postinstall.sh"
   },
   "license": "mit"
 }
