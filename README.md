@@ -4,7 +4,7 @@ This service looks up a barcode by UPC id. It connects with a SOAP service, take
 
 # Requirements 
 
-Service would work only with node 4 and above. See package.json for more details. 
+The service will only work with node 4 and above. See package.json for more details. 
 
 # Group Barcode API
 
