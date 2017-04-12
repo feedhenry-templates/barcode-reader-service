@@ -1,4 +1,5 @@
 # Barcode Lookup
+[![Dependency Status](https://img.shields.io/david/feedhenry-templates/barcode-reader-service.svg?style=flat-square)](https://david-dm.org/feedhenry-templates/barcode-reader-service)
 
 This service looks up a barcode by UPC id. It connects with a SOAP service, takes a mixed SOAP and CSV response, and returns JSON back to the client, more effectively mobilising the service.
 
