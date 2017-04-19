@@ -43,3 +43,19 @@ The service will only work with node 4 and above. See package.json for more deta
             [
               "Some product data goes here"
             ]
+# Build
+```
+npm install
+```
+## Tests
+
+All the tests are in the "test/" directory. The cloud app is using mocha as the test runner. 
+
+* run unit test:
+```shell
+npm test
+```
+* run unit coverage: 
+```shell
+npm run coverage
+```

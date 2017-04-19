@@ -35,11 +35,9 @@
   },
   "main": "application.js",
   "scripts": {
-    "unit": "grunt unit",
-    "accept": "grunt accept",
+    "unit": "grunt test",
     "test": "grunt test",
-    "coverage-unit": "grunt coverage-unit",
-    "coverage-accept": "grunt coverage-accept",
+    "coverage": "grunt coverage",
     "debug": "grunt serve",
     "start": "node application.js",
     "postinstall": "chmod +x scripts/postinstall.sh && scripts/postinstall.sh"
