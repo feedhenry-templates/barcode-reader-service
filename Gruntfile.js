@@ -125,7 +125,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
   // Testing tasks
-  grunt.registerTask('test', ['shell:unit']);
+  grunt.registerTask('test', ['jshint', 'shell:unit']);
 
   // Coverate tasks
   grunt.registerTask('coverage', ['shell:coverage_unit']);
