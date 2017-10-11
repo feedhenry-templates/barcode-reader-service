@@ -2,14 +2,15 @@
   "name": "barcode-reader-service",
   "version": "0.2.1",
   "dependencies": {
-    "body-parser": "~1.0.2",
+    "body-parser": "~1.17.1",
     "cors": "~2.2.0",
     "csv": "^0.4.2",
-    "express": "~4.0.0",
+    "express": "~4.16.0",
     "fh-mbaas-api": "~8.0.2",
     "jsdom": "^9.8.3",
-    "request": "2.79.0",
-    "soap": "^0.8.0"
+    "request": "2.81.0",
+    "soap": "^0.8.0",
+    "snyk": "^1.42.6"
   },
   "engines": {
     "node": ">= 4"
@@ -40,7 +41,10 @@
     "coverage": "grunt coverage",
     "debug": "grunt serve",
     "start": "node application.js",
-    "postinstall": "chmod +x scripts/postinstall.sh && scripts/postinstall.sh"
+    "postinstall": "chmod +x scripts/postinstall.sh && scripts/postinstall.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "license": "mit"
+  "license": "mit",
+  "snyk": true
 }
